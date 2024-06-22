@@ -20,7 +20,7 @@ public class Application {
 		System.out.println("quantity:");
 		product.quantity = sc.nextInt();
 		
-		System.out.println(product.name+", "+product.quantity+", "+product.price);
+		System.out.println(product);
 		
 		
 		sc.close();
