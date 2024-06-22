@@ -20,8 +20,19 @@ public class Application {
 		System.out.println("quantity:");
 		product.quantity = sc.nextInt();
 		
-		System.out.println(product);
+		System.out.println("Product data: "+product);
 		
+		System.out.println("Enter the number of products to be added in stock:");
+		
+		product.AddProduct(sc.nextInt());
+		
+		System.out.println("update data:" +product);
+		System.out.println();
+		
+		System.out.println("Enter the number of products to be remover in stock:");
+		product.RemoveProduct(sc.nextInt());
+		System.out.println();
+		System.out.println("update data:" +product);
 		
 		sc.close();
 
