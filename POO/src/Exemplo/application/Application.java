@@ -18,10 +18,9 @@ public class Application {
 		String name =sc.nextLine();
 		System.out.println("Price:");
 		double price = sc.nextDouble();
-		System.out.println("quantity:");
-		int quantity = sc.nextInt();
 		
-		Product product = new Product(name, price, quantity);
+		
+		Product product = new Product(name, price);
 		
 		System.out.println("Product data: "+product);
 		
